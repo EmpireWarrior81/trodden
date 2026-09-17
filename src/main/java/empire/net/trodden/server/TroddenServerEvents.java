@@ -40,11 +40,11 @@ public final class TroddenServerEvents {
 	}
 
 	public static void register() {
-		// TODO(version-porting): ServerTickEvents.END_WORLD_TICK is the Fabric API
+		// TODO(version-porting): ServerTickEvents.END_LEVEL_TICK is the Fabric API
 		// hook for "once per world, at the end of its tick". The event name/package
 		// (net.fabricmc.fabric.api.event.lifecycle.v1) has been stable for a long
 		// time but is worth re-checking first when bumping Fabric API majors.
-		ServerTickEvents.END_WORLD_TICK.register(TroddenServerEvents::onEndWorldTick);
+		ServerTickEvents.END_LEVEL_TICK.register(TroddenServerEvents::onEndWorldTick);
 	}
 
 	private static void onEndWorldTick(ServerLevel level) {
