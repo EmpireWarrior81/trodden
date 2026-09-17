@@ -2,16 +2,17 @@
 	"schemaVersion": 1,
 	"id": "trodden",
 	"version": "${version}",
-	"name": "trodden",
+	"name": "Trodden",
 	"description": "Desire paths: grass worn by repeated footsteps erodes to dirt and dirt path, and slowly regrows when left alone.",
 	"authors": [
-		"Me!"
+		"EmpireWarrior81"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://github.com/EmpireWarrior81/trodden",
+		"sources": "https://github.com/EmpireWarrior81/trodden",
+		"issues": "https://github.com/EmpireWarrior81/trodden/issues"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/trodden/icon.png",
 	"environment": "*",
 	"entrypoints": {
