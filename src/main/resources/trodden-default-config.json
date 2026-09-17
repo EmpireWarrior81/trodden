@@ -1,0 +1,9 @@
+{
+  "stepGain": 1,
+  "dirtThreshold": 10,
+  "pathThreshold": 40,
+  "regrowRate": 1,
+  "regrowDelay": 72000,
+  "sweepInterval": 200,
+  "playersOnly": true
+}

@@ -1,0 +1,28 @@
+{
+	"schemaVersion": 1,
+	"id": "trodden",
+	"version": "${version}",
+	"name": "trodden",
+	"description": "Desire paths: grass worn by repeated footsteps erodes to dirt and dirt path, and slowly regrows when left alone.",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/trodden/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"empire.net.trodden.Trodden"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
